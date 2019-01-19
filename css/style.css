@@ -1,0 +1,55 @@
+/* Custom Stylesheet */
+
+body, p, .lead {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  font-family: 'Comfortaa', cursive;
+}
+
+.lead {
+  font-weight: 200;
+}
+
+.title {
+  color: #666666;
+  font-size: 4em;
+}
+
+.nav-link i {
+  font-size: 1.4em;
+}
+
+.title img {
+  vertical-align: -36px;
+  margin-right: 24px;
+}
+
+.jumbotron {
+  background-color: #fff;
+  margin-top: 4em;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.row i {
+  font-size: 6em;
+  margin-top: 0.3em;
+  margin-bottom: 0.5em;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+}
+
+footer p {
+  margin-bottom: 0.1rem;
+}
