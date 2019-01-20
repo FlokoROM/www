@@ -17,8 +17,12 @@ body, p, .lead {
   font-size: 4em;
 }
 
+.navbar-collapse {
+  flex-grow: 0;
+}
+
 .nav-link i {
-  font-size: 1.4em;
+  font-size: 1em;
 }
 
 .title img {
@@ -39,7 +43,7 @@ body, p, .lead {
   max-width: 40rem;
 }
 
-.row i {
+.feature-icons {
   font-size: 6em;
   margin-top: 0.3em;
   margin-bottom: 0.5em;
@@ -52,4 +56,42 @@ footer {
 
 footer p {
   margin-bottom: 0.1rem;
+}
+
+/* docs */
+
+.doc-head {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.doc-content h2 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.doc-content li {
+  margin-bottom: 0.4em;
+}
+
+.doc-content .list-group li  {
+  margin-bottom: -1px;
+}
+
+
+/* ref: bootstrap 3.4.0 */
+
+pre {
+  display: block;
+  padding: 0.75em;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  font-size: 1em;
+  line-height: 1.4em;
+  color: #333333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #ececec;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
 }

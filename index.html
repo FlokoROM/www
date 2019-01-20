@@ -25,16 +25,28 @@
 
 <body>
   <header>
-    <div class="navbar fixed-top navbar-dark bg-primary shadow-sm">
+    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary shadow-sm">
       <div class="container">
         <a href="#" class="navbar-brand logo">
           <strong>Floko</strong>
         </a>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/FlokoROM"><i class="fab fa-github"></i></a>
-          </li>
-        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="https://floko.maud.io/"><i class="fas fa-home fa-fw"></i> Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="docs/p9.0/"><i class="fas fa-file-alt fa-fw"></i> Docs</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="https://github.com/FlokoROM"><i class="fab fa-github fa-fw"></i> Source</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </header>
@@ -46,7 +58,7 @@
         <h1 class="jumbotron-heading title logo"><img src="img/snowflake.svg" width="128px">Floko</h1>
         <p class="lead text-muted">Bring cool feature and clean experience to your Android device</p>
         <p>
-          <a href="#" class="btn btn-success"><i class="fas fa-cloud-download-alt"></i> Download</a>
+          <a href="docs/p9.0/" class="btn btn-primary"><i class="fas fa-file-alt"></i> Documents</a>
           <a href="https://github.com/FlokoROM" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</a>
         </p>
       </div>
@@ -57,19 +69,19 @@
         <div class="row text-center">
 
           <div class="col-lg-4">
-            <i class="fab fa-android"></i>
+            <i class="fab fa-android fa-fw feature-icons"></i>
             <h2>Latest Android</h2>
             <p>Floko is released at least once a month. Updates include latest security patch, and new features. Now Floko "p9.0" is based on Android 9.0 "Pie".</p>
           </div>
 
           <div class="col-lg-4">
-            <i class="fas fa-bolt"></i>
+            <i class="fas fa-bolt fa-fw feature-icons"></i>
             <h2>Clean and Fast</h2>
             <p>Floko is based on AOSP, Android Open Source Project. There is no bloatware, spyware, and annoying notifications from vendor.</p>
           </div>
 
           <div class="col-lg-4">
-            <i class="fas fa-tools"></i>
+            <i class="fas fa-tools fa-fw feature-icons"></i>
             <h2>Customizable</h2>
             <p>Floko has many customizable features like SmartBar, Fling, Pulse, Network activity indicator, OmniSwitch, 4x4/5x5/6x6 Lock pattern...</p>
           </div>
@@ -86,8 +98,9 @@
       <p>Copyright (c) 2019- FlokoROM. Made with  <a href="https://getbootstrap.com/">Bootstrap</a> and <a href="https://bootswatch.com/litera/">Litera</a>.</p>
     </div>
   </footer>
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
-</body>
 
+</body>
 </html>
