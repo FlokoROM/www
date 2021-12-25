@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="light">
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Bring cool feature and clean experience to your Android device">
   <meta name="author" content="FlokoROM">
   <meta name="theme-color" content="#4582ec">
@@ -15,71 +15,41 @@
   <title>FlokoROM</title>
   <link href="https://fonts.googleapis.com/css?family=Comfortaa|Lato&display=swap" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" rel="stylesheet">
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet" />
+	<link href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
   <link href="apple-touch-icon.png" rel="icon" type="image/png" >
 
 </head>
 
 <body>
   <header>
-    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary shadow-sm">
-      <div class="container">
-        <a href="#" class="navbar-brand logo">
-          <strong>Floko</strong>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="https://floko.maud.io/"><i class="fas fa-home fa-fw"></i> Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-             <a class="nav-link" href="https://wiki.maud.io/floko/v4"><i class="fas fa-file-alt fa-fw"></i> Docs</a>
-            </li>
-            <li class="nav-item">
-             <a class="nav-link" href="https://github.com/FlokoROM"><i class="fab fa-github fa-fw"></i> Source</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </header>
+		<div class="container">
+			<h1 class="title logo"><img src="img/snowflake.svg" width="128px">Floko</h1>
+			<p>Bring cool new features and a clean experience to your Android device</p>
+			<!--
+      <a href="https://sourceforge.net/projects/flokorom/files/" role="button"><i class="fas fa-cloud-download-alt"></i> Download</a>
+      -->
+      <a href="https://wiki.maud.io/floko/v4" role="button"><i class="fas fa-file-alt"></i> Documentation</a>
+      <a href="https://github.com/FlokoROM" role="button" class="contrast"><i class="fab fa-github"></i> GitHub</a>
+		</div>
+	</header>
 
-  <main role="main">
-
-    <section class="jumbotron text-center">
-      <div class="container">
-        <h1 class="jumbotron-heading title logo"><img src="img/snowflake.svg" width="128px">Floko</h1>
-        <p class="lead text-muted">Bring cool new features and a clean experience to your Android device</p>
-        <p>
-          <a href="https://sourceforge.net/projects/flokorom/files/" class="btn btn-success"><i class="fas fa-cloud-download-alt"></i> Download</a>
-          <a href="https://wiki.maud.io/floko/v4" class="btn btn-primary"><i class="fas fa-file-alt"></i> Documentation</a>
-          <a href="https://github.com/FlokoROM" class="btn btn-secondary"><i class="fab fa-github"></i> GitHub</a>
-        </p>
-      </div>
-    </section>
-
-    <div class="py-5 bg-light">
-      <div class="container">
-        <div class="row text-center">
-
-          <div class="col-lg-4">
+  <main>
+    <div class="container">
+      <div class="grid">
+          <div>
             <i class="fab fa-android fa-fw feature-icons"></i>
             <h2>Latest Android</h2>
             <p>FlokoROM is released at least once a month. Updates include latest security patch, and new features. Now FlokoROM v4 is based on <b>Android 11</b>.</p>
           </div>
 
-          <div class="col-lg-4">
+          <div>
             <i class="fas fa-bolt fa-fw feature-icons"></i>
             <h2>Clean and Fast</h2>
             <p>FlokoROM is based on AOSP, the Android Open Source Project. There is no bloatware, spyware, or annoying notifications from OEMs. Taste clean Android Experience.</p>
           </div>
 
-          <div class="col-lg-4">
+          <div>
             <i class="fas fa-tools fa-fw feature-icons"></i>
             <h2>Customizable</h2>
             <p>FlokoROM has many customization features. such as Network activity indicator, OmniSwitch Recents, Transparency and so on.</p>
@@ -91,15 +61,11 @@
 
   </main>
 
-  <footer class="text-muted">
+  <footer>
     <div class="container">
-      <p class="float-right"><a href="#">Back to top</a></p>
-      <p>Copyright (c) 2019- FlokoROM. Made with  <a href="https://getbootstrap.com/">Bootstrap</a> and <a href="https://bootswatch.com/litera/">Litera</a>.</p>
+      <p><small>Copyright (c) 2019- FlokoROM. Made with  <a href="https://picocss.com">Pico.css</a></small></p>
     </div>
   </footer>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
